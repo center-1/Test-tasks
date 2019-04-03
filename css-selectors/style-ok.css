@@ -1,0 +1,49 @@
+body {
+	background-color: blue;
+}
+header {
+	width: 300px;
+	padding: 30px;
+	background-color: white;
+}
+ul {
+	background-color: red;
+}
+ul ul {
+	background-color: yellow;
+}
+ul ul ul {
+	background-color: red;
+}
+ul ul ul ol {
+	background-color: yellow;
+}
+ul li a {
+	background-color: green;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ul li ul li a {
+	background-color: #8829e8;
+}
+ul li ul li ul li a {
+	background-color: black;
+}
+ul li ul li ul li ol li a {
+	background-color: lightblue;
+	color: orange;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ol li:nth-child(2n) a {
+	background-color: blue;
+}
+a {
+	color: white;
+}
+ul > li:last-child a {
+	color: black;
+}
+ul > li > ul > li:last-child a {
+	color: orange;
+}
