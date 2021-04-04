@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harz Labs</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="header header-container">
+      <div class="logo">
+        <img class="logo__pic" src="img/logo.png" alt="logo Harz Labs">
+      </div>
+      <div class="header-wrap">
+        <nav class="nav-menu">
+          <ul class="nav-menu__list reset-list">
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link">Products</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link">Dealears</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link nav-menu__link--active">Store</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link">Support</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav-menu__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a href="#" class="user-block__link user-block__search">
+            <svg width="0" height="0" class="hidden">
+              <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="user">
+                <circle cx="8.084" cy="4.25" r="3.85" stroke="#9EABBD" stroke-width=".8"></circle>
+                <path d="M15.167 15.583a7.083 7.083 0 00-14.167 0" stroke="#9EABBD" stroke-width=".8"></path>
+              </symbol>
+              <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 16" id="heart">
+                <path d="M17.197 7.898h0l-7.66 7.541-7.869-7.72a1.954 1.954 0 01-.07-.076l-.003-.002a4.232 4.232 0 01.253-6.134h.001C3.589-.04 6.355.19 8.047 1.853l.001.002 1.21 1.176.281.274.28-.276 1.39-1.38h.001a2.06 2.06 0 01.076-.07l.002-.002c.027-.024.061-.053.096-.087a4.429 4.429 0 016.165.336c1.558 1.705 1.336 4.413-.352 6.072z" stroke="#9EABBD" stroke-width=".8" stroke-miterlimit="3" stroke-linecap="round"></path>
+              </symbol>
+              <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 16" id="loupe">
+                <circle cx="6.375" cy="6.792" r="5.875" stroke="#9EABBD"></circle>
+                <path stroke="#9EABBD" d="M10.27 11.396l4.25 4.25"></path>
+              </symbol>
+              <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" id="mail">
+                <path d="M4 4a3 3 0 006 0M4 4V3m6 1V3" stroke="#9EABBD" stroke-width=".8"></path>
+                <path stroke="#9EABBD" stroke-width=".8" d="M.4.4h13.2v14.2H.4z"></path>
+              </symbol>
+            </svg>
+            <svg class="icon" width="14" height="15">
+              <use xlink:href="#loupe"></use>
+            </svg>
+          </a>
+          <a href="#" class="user-block__link user-block__client">
+            <svg class="icon" width="14" height="15">
+              <use xlink:href="#user"></use>
+            </svg>
+          </a>
+          <a href="#" class="user-block__link user-block__heart">
+            <svg class="icon" width="19" height="16">
+              <use xlink:href="#heart"></use>
+            </svg>
+            <span class="user-block__heart-counter">7</span>
+          </a>
+          <a href="#" class="user-block__link user-block__mail">
+            <svg class="icon" width="14" height="15">
+              <use xlink:href="#mail"></use>
+            </svg>
+            <span class="user-block__mail-counter">3</span>
+          </a>
+        </div>
+        <div class="languages">
+          <a href="#" class="language__ru">Ru</a>
+          <span class="language__separator">/</span>
+          <a href="#" class="language__eng language__eng--active">Eng</a>
+        </div>
+      </div>
+    </header>
+    <!-- /.header -->
+
+    <main>
+      <div class="main-container">
+        <section class="price">
+          <h1 class="visually-hidden">Goods store</h1>
+          <div class="price-media">
+            <div class="price-media__small">
+              <a class="price-media__link" href="#">
+                <img class="price-media__pic" src="img/content_01-xs.jpg" alt="content-1">
+              </a>
+              <a class="price-media__link" href="#">
+                <img class="price-media__pic" src="img/content_02-xs.jpg" alt="content-2">
+              </a>
+              <a class="price-media__link" href="#">
+                <img class="price-media__pic" src="img/content_03-xs.jpg" alt="content-3">
+              </a>
+              <a class="price-media__link" href="#">
+                <img class="price-media__pic" src="img/content_04-xs.jpg" alt="content-4">
+              </a>
+              <a class="price-media__link" href="#">
+                <img class="price-media__pic" src="img/content_05-xs.jpg" alt="content-5">
+              </a>
+            </div>
+            <!-- /.price-media__small -->
+            <div class="price-media__view-wrap">
+              <picture class="price-media__view price-media__view--active">
+                <source srcset="" media="(max-width: 1200px)">
+                <img src="img/content_01-xl.jpg" alt="content-1">
+              </picture>
+              <picture class="price-media__view">
+                <source srcset="" media="(max-width: 1200px)">
+                <img src="img/content_02-xl.jpg" alt="content-1">
+              </picture>
+              <picture class="price-media__view">
+                <source srcset="" media="(max-width: 1200px)">
+                <img src="img/content_03-xl.jpg" alt="content-1">
+              </picture>
+              <picture class="price-media__view">
+                <source srcset="" media="(max-width: 1200px)">
+                <img src="img/content_04-xl.jpg" alt="content-1">
+              </picture>
+              <picture class="price-media__view">
+                <source srcset="" media="(max-width: 1200px)">
+                <img src="img/content_05-xl.jpg" alt="content-1">
+              </picture>
+            </div>
+            <!-- /.price-media__view-wrap -->
+          </div>
+          <!-- /.price-media -->
+
+          <div class="price-props">
+            <p class="price-props__instock">15 in stock</p>
+            <h2 class="price-props__title">Model Resin</h2>
+            <p class="price-props__desc">
+              Designed for printing models that have high requirements in mechanical properties. Durable, non-shrinking and odorless
+            </p>
+            <div class="price-props__weight-color-wrap">
+              <div class="price-props__weight">
+                <a href="#" class="price-props__weight-link price-props__weight-link--active">
+                  1 <span class="price-props__weight-link-kg--active">kg</span>
+                </a>
+                <span class="price-props__weight-separator">/</span>
+                <a href="#" class="price-props__weight-link">
+                  0,5 <span class="price-props__weight-link-kg">kg</span>
+                </a>
+              </div>
+
+              <div class="price-props__color">
+                <ul class="price-props__color-list reset-list">
+                  <li class="price-props__color-item">
+                    <a href="#" class="price-props__color-link price-props__color-link--grey"></a>
+                  </li>
+                  <li class="price-props__color-item">
+                    <a href="#" class="price-props__color-link price-props__color-link--beige"></a>
+                  </li>
+                  <li class="price-props__color-item">
+                    <a href="#" class="price-props__color-link price-props__color-link--black"></a>
+                  </li>
+                  <li class="price-props__color-item">
+                    <a href="#" class="price-props__color-link price-props__color-link--white price-props__color-link--active"></a>
+                  </li>
+                  <li class="price-props__color-item">
+                    <a href="#" class="price-props__color-link price-props__color-link--darkgrey"></a>
+                  </li>
+                  <li class="price-props__color-item">
+                    <a href="#" class="price-props__color-link price-props__color-link--red"></a>
+                  </li>
+                  <li class="price-props__color-item">
+                    <a href="#" class="price-props__color-link price-props__color-link--blue"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="price-props__counter-wrap">
+              <div class="price-props__counter">
+                <input class="price-props__counter-minus" type="button" id="buttonCountMinus" value="-">
+                <p class="price-props__counter-number" id="buttonCountNumber">1</p>
+                <div class="price-props__counter-unit-wrap">
+                  <input class="price-props__counter-unit" type="button" value="89" id="UnitNumber" name="UnitNumber">&#8364;
+                </div>
+                <input class="price-props__counter-plus" type="button" id="buttonCountPlus" value="+">
+              </div>
+              <a class="price-props__counter-heart">
+                <svg class="icon" width="35" height="35">
+                  <use xlink:href="#heart"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- /.price-props -->
+        </section>
+        <!-- /.price -->
+
+        <section class="product">
+          <h3 class="visually-hidden">Product description</h3>
+          <ul class="product__title reset-list">
+            <li class="product__item">
+              <a href="#product-character" class="product__link product__link--active">
+                characteristics
+              </a>
+            </li>
+            <li class="product__item">
+              <a href="#product-desc" class="product__link">
+                description
+              </a>
+            </li>
+            <li class="product__item">
+              <a href="#product-advantages" class="product__link">
+                advantages
+              </a>
+            </li>
+            <li class="product__item">
+              <a href="#product-reviews" class="product__link">
+                reviews
+              </a>
+            </li>
+          </ul>
+          <!-- /.product__title -->
+
+          <div class="product__character-wrap product--active" id="product-character">
+            <div class="product__character">
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                  Colored transparent liquid
+                </span>
+              </p>
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                  Clear, Natural Clear, Grey, Black, White, Cherry, Blue
+                </span>
+              </p>
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                  Odorless
+                </span>
+              </p>
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                0.8-1 Pa*s
+                </span>
+              </p>
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                45 N/mm2
+                </span>
+              </p>
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                4-6%
+                </span>
+              </p>
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                87-92
+                </span>
+              </p>
+              <p class="product__character-text">
+                <span class="product__character-text-line">
+                &lt;0.5%
+                </span>
+              </p>
+            </div>
+            <!-- /.product__character -->
+            <div class="product__character-properties">
+              <p class="product__character-properties-text">
+                Appearance
+              </p>
+              <p class="product__character-properties-text">
+                Color
+              </p>
+              <p class="product__character-properties-text">
+                Odor
+              </p>
+              <p class="product__character-properties-text">
+                Viscosity according to Brookfield
+              </p>
+              <p class="product__character-properties-text">
+                Tensile strength
+              </p>
+              <p class="product__character-properties-text">
+                Elongation at break
+              </p>
+              <p class="product__character-properties-text">
+                Hardness Shore D
+              </p>
+              <p class="product__character-properties-text">
+                Shrinkage
+              </p>              
+            </div>
+            <!-- /.product__character-properties -->
+          </div>
+          <!-- /.product__character-wrap -->
+          <div class="product__desc" id="product-desc">
+            <p>product__desc ... Text</p>
+          </div>
+          <!-- /.product__desc -->
+          <div class="product__advantages" id="product-advantages">
+            <p>product__advantages ... Text</p>
+          </div>
+          <!-- /.product__advantages -->
+          <div class="product__reviews" id="product-reviews">
+            <p>product__reviews ... Text</p>
+          </div>
+          <!-- /.product__reviews -->
+        </section>
+        <!-- /.product -->
+
+      </div>
+    </main>
+
+    <!-- scripts -->
+    <script src="js/script.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <!-- /.scripts -->
+
+  </body>
+</html>
+

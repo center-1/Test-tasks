@@ -1,0 +1,17 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 16" id="loupe">
+    <circle cx="6.375" cy="6.792" r="5.875" stroke="#9EABBD"></circle>
+    <path stroke="#9EABBD" d="M10.27 11.396l4.25 4.25"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="user">
+    <circle cx="8.084" cy="4.25" r="3.85" stroke="#9EABBD" stroke-width=".8"></circle>
+    <path d="M15.167 15.583a7.083 7.083 0 00-14.167 0" stroke="#9EABBD" stroke-width=".8"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" id="mail">
+    <path d="M4 4a3 3 0 006 0M4 4V3m6 1V3" stroke="#9EABBD" stroke-width=".8"></path>
+    <path stroke="#9EABBD" stroke-width=".8" d="M.4.4h13.2v14.2H.4z"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 16" id="heart">
+    <path d="M17.197 7.898h0l-7.66 7.541-7.869-7.72a1.954 1.954 0 01-.07-.076l-.003-.002a4.232 4.232 0 01.253-6.134h.001C3.589-.04 6.355.19 8.047 1.853l.001.002 1.21 1.176.281.274.28-.276 1.39-1.38h.001a2.06 2.06 0 01.076-.07l.002-.002c.027-.024.061-.053.096-.087a4.429 4.429 0 016.165.336c1.558 1.705 1.336 4.413-.352 6.072z" stroke="#9EABBD" stroke-width=".8" stroke-miterlimit="3" stroke-linecap="round"></path>
+  </symbol>
+</svg>
